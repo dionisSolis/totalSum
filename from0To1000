@@ -1,0 +1,24 @@
+using System;
+namespace qwerty
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int totalSum = 0;
+            int digit;
+
+            for (digit = 0; digit <= 1000; digit++)
+            {
+
+                if (digit % 2 != 0)
+                {
+                    totalSum += digit;
+                }
+            }
+
+            Console.WriteLine($"Сумма нечетных чисел от 0 до 1000: {totalSum}");
+            Console.Read();
+        }
+    }
+}
