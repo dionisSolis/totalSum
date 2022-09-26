@@ -10,7 +10,7 @@ namespace qwerty
 
             for (digit = 0; digit <= 1000; digit++)
             {
-
+            
                 if (digit % 2 != 0)
                 {
                     totalSum += digit;
